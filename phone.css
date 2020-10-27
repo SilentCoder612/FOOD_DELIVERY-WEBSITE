@@ -1,0 +1,146 @@
+body
+{
+    font-family: 'Orbitron', sans-serif;
+}
+body button
+{
+    font-family: 'Orbitron', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+h2 {
+    margin-top: 6px;
+    margin-bottom: -32px;
+    font-size: 52px;
+}
+
+#navbar
+{
+    
+    flex-direction: column;
+    /* position: sticky; */
+    /* align-items: center;
+    top: 0px; */
+    /* justify-content: center; */
+    /* border:2px solid orange; */ 
+   
+}
+
+#logo img
+{
+    height: 70px;
+    width: 70px;
+    margin: 6px 4px;
+    border-radius: 40px;
+}
+
+.list
+{
+    list-style: none;
+    padding: 11px;
+    font-size: 25px;
+   
+    /* margin: 0px; */
+}
+
+#home img {
+    height: 179px;
+    width: 179px;
+    margin: 3px 10px;
+    border-radius: 40px;
+}
+#home {
+    /* display: flex; */
+    padding: 0px 0px;
+    /* flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    height: 445px;
+    /* color: black; */
+}
+#home h1 {
+    margin: 0px;
+    font-size: 40px;
+}
+
+#home p {
+    font-size: 32px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+.services {
+  
+    flex-direction: column;
+    height: 1202px;
+    
+}
+#services h2
+{
+    margin-bottom: 3px;
+}
+
+/* #services h2
+{
+    z-index: -1;
+    opacity: 0.50;
+} */
+/* #services::before
+{
+    content: "";
+    position: absolute;
+    background: url("../foodie1.jpg")no-repeat center center/cover;
+    height: 800px;
+    width: 100%;
+    opacity: 0.5;
+    z-index: -1;
+} */
+.box-services
+{
+    padding: 0px;
+    margin: 12px 36px;
+    text-align: center;
+    border-radius: 17px;
+    flex-direction: column;
+}
+
+.box-services img
+{
+    padding-top: 20px;
+    width: 141px;
+    height: 141px;
+    border-radius: 0px;
+}
+
+.box-services h3 {
+    font-size: 35px;
+}
+
+.box-client img {
+    
+    padding: 3px;
+    height: 180px;
+    width: 180px;
+    
+   
+}
+
+/* .clients {
+    flex-direction: column;
+} */
+
+.services p {
+    font-size: 30px;
+    font-family: 'Caveat', cursive;
+    padding-bottom: 15px;
+}
+
+#contact h2
+{
+    margin-top: 11px;
+    margin-bottom: -22px;
+    font-size: 57px;
+}

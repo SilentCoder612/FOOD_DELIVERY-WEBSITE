@@ -1,0 +1,76 @@
+body
+{
+    font-family: 'Orbitron', sans-serif;
+}
+body button
+{
+    font-family: 'Orbitron', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+h2 {
+    margin-top: 10px;
+    margin-bottom: -43px;
+    /* font-size: 52px; */
+}
+
+.list {
+    
+    
+    margin-top: -10px;
+    margin-bottom: 21px;
+    font-size: 12px;
+    /* margin: 0px; */
+}
+#home h1 {
+    margin: 0px;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+#home img {
+    height: 122px;
+    width: 122px;
+    margin: 14px 10px;
+    border-radius: 18px;
+}
+
+#home button {
+    margin: 9px;
+}
+
+.box-client img {
+    padding: 3px;
+    height: 80px;
+    width: 80px;
+}
+
+.box-services {
+    /* padding: 0px;
+    margin: 0px 0px; */
+    margin-bottom: 15px;
+    /* text-align: center;
+    border-radius: 17px;
+    flex-direction: column; */
+}
+#services h2 {
+    margin-bottom: 297px;
+    margin-top: -4px;
+}
+
+#contact h2 {
+    margin-top: 300px;
+}
+
+#contact::before {
+    /* content: "";
+    position: absolute;
+    background-color: #fdded2; */
+    height: 612px;
+    /* width: 100%;
+    opacity: 0.5;
+    z-index: -1; */
+}

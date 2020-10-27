@@ -1,0 +1,53 @@
+body
+{
+    font-family: 'Orbitron', sans-serif;
+}
+body button
+{
+    font-family: 'Orbitron', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.list {
+    /* margin-top: -10px; */
+    /* margin-bottom: 21px; */
+    font-size: 9px;
+    /* margin: 0px; */
+}
+
+#home img {
+    height: 80px;
+    width: 80px;
+    /* margin: 14px 10px; */
+    /* border-radius: 18px; */
+}
+
+h2 {
+    margin-top: 14px;
+    margin-bottom: 0px;
+    font-size: 36px;
+}
+
+#home p {
+    font-size: 15px;
+    /* margin-bottom: 0px; */
+    text-align: center;
+}
+
+.services p {
+    font-size: 20px;
+    /* font-family: 'Caveat', cursive; */
+    /* padding-bottom: 26px; */
+}
+
+#services h2 {
+    margin-bottom: 30px;
+    margin-top: -9px;
+}
+
+#contact::before {
+    height: 632px;
+}

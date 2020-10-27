@@ -1,0 +1,95 @@
+body
+{
+    font-family: 'Orbitron', sans-serif;
+}
+body button
+{
+    font-family: 'Orbitron', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+#home h1 {
+    margin: 0px;
+    font-size: 22px;
+}
+#home p {
+    font-size: 23px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+#home button {
+    margin: 3px;
+    padding: 9px;
+    color: white;
+    background-color: red;
+    border: 2px solid white;
+    border-radius: 15px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.box-services {
+    padding: 0px;
+    margin: 0px 0px;
+    margin-bottom: 22px;
+    text-align: center;
+    border-radius: 17px;
+    flex-direction: column;
+}
+
+.box-client img {
+    padding: 3px;
+    height: 120px;
+    width: 120px;
+}
+
+#services h2 {
+    margin-bottom: 105px;
+}
+
+#contact h2 {
+    margin-top: 74px;
+    margin-bottom: 31px;
+    font-size: 37px;
+}
+
+#contact::before {
+    /* content: "";
+    position: absolute;
+    background-color: #fdded2; */
+    height: 626px;
+    /* width: 100%;
+    opacity: 0.5;
+    z-index: -1; */
+}
+
+.form-group input {
+    width: 304px;
+    height: 17px;
+    border-radius: 8px;
+}
+
+.form-group button {
+    width: 75px;
+    height: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 4px auto;
+    padding: 4px;
+    font-size: 15px;
+}
+
+footer {
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -47px;
+    width: 100%; */
+    height: 129px;
+    /* color: white;
+    background-color: #171615; */
+}

@@ -1,0 +1,346 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+body
+{
+    font-family: 'Orbitron', sans-serif;
+}
+body button
+{
+    font-family: 'Orbitron', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+#navbar
+{
+    display: flex;
+    position: sticky;
+    align-items: center;
+    top: 0px;
+    /* justify-content: center; */
+    /* border:2px solid orange; */ 
+}
+
+h2
+{
+    margin-top: -13px;
+    margin-bottom: -28px;
+    font-size: 50px;
+    font-family: 'Changa', sans-serif;
+}
+
+#navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    top:0px;
+    left:0px;
+    height: 90%;
+    width:100%;
+    z-index: -1;
+    opacity: 0.7;
+}
+
+#logo img
+{
+    height: 50px;
+    width: 50px;
+    /* display: block;
+    float: left; */
+    margin: 14px 13px;
+    border-radius: 40px;
+}
+
+#navbar ul
+{
+    display: flex;
+}
+.list
+{
+    list-style: none;
+    padding: 30px;
+    font-size: 25px;
+   
+    /* margin: 0px; */
+}
+.list a
+{
+    text-decoration: none;
+    color: white;
+}
+
+#navbar ul li a:hover {
+    /* text-decoration: underline; */
+    color: black;
+    background-color: #eab187;
+    border-radius: 3px;
+}
+
+#home
+{
+    display: flex;
+    padding: 3px 200px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    color: black;
+}
+#home img
+{
+    height: 179px;
+    width: 179px;
+    /* display: block;
+    float: left; */
+    margin: 14px 13px;
+    border-radius: 40px; 
+}
+
+#home::before
+{
+    content: "";
+    position: absolute;
+    background: url('../foodBG.jpg') no-repeat center center/cover;
+    height: 593px;
+    top:0px;
+    left:0px;
+    width: 100%;
+    z-index: -1;
+    opacity:0.50;
+}
+#home h1
+{
+    margin: 15px;
+    /* margin-bottom: 5px; */
+    font-family: 'Changa', sans-serif;
+    font-size: 50px;
+    opacity: 1;
+}
+#home p
+{
+    font-size: 25px;
+    margin-bottom: 20px;
+    font-family: 'Caveat', cursive;
+}
+#home button
+{
+    margin: 15px;
+    padding: 15px;
+    color: white;
+    background-color: red;;
+    border: 2px solid white;
+    border-radius: 15px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#home button:hover {
+    /* /* margin: 15px;
+    padding: 15px; */
+    color: #0c0c0c;
+    background-color: #e1b993;
+    border: 2px solid #f90000;
+    border-radius: 15px;
+    font-size: 20px;
+    /* cursor: pointer; */ 
+}
+
+
+/* .box
+{
+    padding: 5px;
+} */
+
+#about
+{
+    display: flex;
+    /* border: 2px solid orange; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.clients
+{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2px;
+}
+
+
+
+#about::before
+{
+    content: "";
+    position: absolute;
+    background-color:#f9ead0;
+    height: 550px;
+    width: 100%;
+    opacity: 0.5;
+    z-index: -1;
+}
+
+.box-client img
+{
+    height: 300px;
+    width: 300px;
+    padding: 40px;
+    margin: 5px;
+    /* border: 2px solid black; */
+    border-radius: 200px;
+}
+
+#services
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+
+/* #services::before
+{
+    content: "";
+    position: absolute;
+    background: url("../foodie1.jpg")no-repeat center center/cover;
+    height: 550px;
+    width: 100%;
+    opacity: 0.5;
+    z-index: -1;
+} */
+
+.services
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    width: 100%;
+}
+
+.services p
+{
+    font-size: 25px;
+    font-family: 'Caveat', cursive;
+}
+
+.box-services img
+{
+    width: 180px;
+    height: 180px;
+   display: flex;
+   border-radius: 60px;
+
+}
+.box-services
+{
+    /* width: 500px;
+    height: 300px; */
+    background-color: #f9ead0;
+    padding:  20px;
+    margin: 2px 55px;
+    border-radius: 70px;
+    display: flex;
+    /* border: 2px solid pink; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.services :hover
+{
+    background-color: #ffb95e;
+    cursor: pointer;
+}
+.box-services h3
+{
+    margin: 10px auto;
+    font-family: 'Changa', sans-serif;
+}
+
+#contact
+{
+    /* border: 2px solid orange; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact::before
+{
+    content: "";
+    position: absolute;
+    background-color:#fdded2;
+    height: 446px;
+    width: 100%;
+    opacity: 0.5;
+    z-index: -1;
+}
+
+#contact form
+{
+    /* border: 2px solid orange; */
+    margin-top: 5px;
+}
+
+.form-group
+{
+    display: flex;
+    flex-direction: column;
+    margin: 5px auto;
+}
+.form-group input
+{
+    width: 600px;
+    height: 20px;
+    border-radius: 5px;
+}
+
+.form-group textarea
+{
+    /* width: 600px;
+    height: 20px; */
+    border-radius: 5px;
+}
+
+.form-group button
+{
+    width: 102px;
+    height: 42px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px auto;
+    padding: 7px;
+    font-size: 23px;
+}
+
+.form-group button:hover {
+   
+    
+    background-color: #fee7de;
+    border: 2px solid #000000;
+    color: #4c351d;
+}
+
+footer
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    color: white;
+    background-color: #171615;
+}
